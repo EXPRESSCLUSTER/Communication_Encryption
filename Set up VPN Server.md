@@ -35,3 +35,6 @@ Before beginning, install the latest updates onto the server
 ## Enable VPN access to a user or group
 1. Launch **Active Direcotry Users and Computers** on the Domain Controller.
 2. Under **Users** create and select a new user or select an existing account to grant VPN access.
+3. Right-click on the user and select **Properties**.
+4. Select the **Dial-in** tab. The default setting is **Control access through NPS Network Policy**. NPS policies can be created and enabled but the simplest method is to select **Allow access**.
+5. Click **Apply**. Click **OK**.
