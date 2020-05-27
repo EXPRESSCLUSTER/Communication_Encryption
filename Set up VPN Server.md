@@ -33,3 +33,5 @@ Before beginning, install the latest updates onto the server
 7. Click **OK**.
 8. Restart the **Routing and Remote Access** service by right-clicking on the server name. Select **All Tasks->Restart**.
 ## Enable VPN access to a user or group
+1. Launch **Active Direcotry Users and Computers** on the Domain Controller.
+2. Under **Users** create and select a new user or select an existing account to grant VPN access.
