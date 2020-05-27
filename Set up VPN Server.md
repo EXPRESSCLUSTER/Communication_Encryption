@@ -20,4 +20,7 @@ Before beginning, install the latest updates onto the server
 4. Right-click your server name in the left pane and select **Configure and Enable Routing and Remote Access**.
 5. Click **Next** on the welcome screen.
 6. Select **Custom Configuration** on the **Configuration** screen. Click **Next**.
-7. On the **Custom Configuration** screen only check **VPN access**. Click Next.
+7. On the **Custom Configuration** screen only check **VPN access**. Click **Next**.
+8. Click **Finish** on the **Summary** screen.
+9. On the next screen click **Start service** to start the Remote Access service.
+## Configure VPN Role Part 2
