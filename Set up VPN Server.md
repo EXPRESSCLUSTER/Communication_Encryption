@@ -25,3 +25,11 @@ Before beginning, install the latest updates onto the server
 9. On the next screen click **Start service** to start the Routing and Remote Access service.
 ## Configure VPN Role Part 2
 1. In the **Routing and Remote Access** console right-click the server name and select **Properties**.
+2. Select the **Security** tab.
+3. Check **Allow custom IPsec policy for L2TP/IKEv2 connection** and enter a **Preshared Key** e.g. MyVPNkey.
+4. Click **Apply**.
+5. Select the **IPv4** tab.
+6. If using **DHCP** no changes are needed. Otherwise choose **Static address pool** and enter an IP address range.
+7. Click **OK**.
+8. Restart the **Routing and Remote Access** service by right-clicking on the server name. Select **All Tasks->Restart**.
+## Enable VPN access to a user or group
