@@ -1,5 +1,5 @@
 ## Configure the VPN client
-*Enable a user to use VPN to access a server and set up a VPN client*
+*Enable a user to use VPN to access a server and then set up a VPN client*
 ### Enable VPN access to a user or group
 1. Launch **Active Directory Users and Computers** on the Domain Controller.
 2. Under **Users** create and select a new user or select an existing account to grant VPN access.
