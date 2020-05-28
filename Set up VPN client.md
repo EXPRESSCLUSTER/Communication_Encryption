@@ -7,4 +7,4 @@
 4. Select the **Dial-in** tab. The **Network Access Permission** default setting is **Control access through NPS Network Policy**. NPS policies can be created and enabled but the simplest method is to select **Allow access**.
 5. Click **Apply**. Click **OK**.
 ### Set up VPN client
-1. On the client machine
+1. On the client machine right-click on the **Start** menu and select **Network Connections**.
