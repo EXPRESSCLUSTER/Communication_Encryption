@@ -19,6 +19,11 @@
 5. Click on the newly created VPN connection icon e.g. MyVPN and click **Connect**  
 If the user name and password weren't saved previously, enter them and click **OK**.
 ### Verify connection
-1. Beneath the VPN connection icon shoudl be the word **\"Connected\"**.
+#### Client
+1. Beneath the VPN connection icon should be the word **\"Connected\"**.
 2. Open **Network Connections** (ncpa.cpl) and you should see a new connection with the name of your VPN connection name created previously e.g. MyVPN
 3. Right click the new VPN connection, select **Status**, and click **Details** to see Network Connection Details, including the assigned IP address.
+#### Server
+1. On the VPN server open **Routing and Remote Access**. 
+2. **Remote Access Clients** should show a new connection. Refresh the display if it doesn't show up.
+3. **Ports** should have a new **WAN Miniport (L2TP)** entry which has an **Active** status.
