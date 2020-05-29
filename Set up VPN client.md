@@ -8,3 +8,6 @@
 5. Click **Apply**. Click **OK**.
 ### Set up VPN client
 1. On the client machine right-click on the **Start** menu and select **Network Connections**.
+2. Click **VPN** in the left pane.
+3. Click **Add a VPN connection** and a dialog will come up which has several fields to fill out:  
+    - For **VPN provider** choose **Windows (built-in)**. 
