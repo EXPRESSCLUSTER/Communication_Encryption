@@ -21,8 +21,9 @@ If the user name and password weren't saved previously, enter them and click **O
 ### Verify connection
 #### Client
 1. Beneath the VPN connection icon should be the word **\"Connected\"**.
-2. Open **Network Connections** (ncpa.cpl) and you should see a new connection with the name of your VPN connection name created previously e.g. MyVPN
-3. Right click the new VPN connection, select **Status**, and click **Details** to see Network Connection Details, including the assigned IP address.
+2. Open **Network Connections** (ncpa.cpl) and you should see a new connection with the name of your VPN connection name created previously e.g. MyVPN  
+Right click the new VPN connection, select **Status**, and click **Details** to see Network Connection Details, including the assigned IP address.
+3. Open a command prompt. Type IPConfig and look for a new entry with a new IP address 
 #### Server
 1. On the VPN server open **Routing and Remote Access**. 
 2. **Remote Access Clients** should show a new connection. Refresh the display if it doesn't show up.
