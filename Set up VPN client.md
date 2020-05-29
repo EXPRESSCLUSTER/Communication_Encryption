@@ -21,3 +21,4 @@ If the user name and password weren't saved previously, enter them and click **O
 ### Verify connection
 1. Beneath the VPN connection icon shoudl be the word **\"Connected\"**.
 2. Open **Network Connections** (ncpa.cpl) and you should see a new connection with the name of your VPN connection name created previously e.g. MyVPN
+3. Right click the new VPN connection, select **Status**, and click **Details** to see Network Connection Details, including the assigned IP address.
