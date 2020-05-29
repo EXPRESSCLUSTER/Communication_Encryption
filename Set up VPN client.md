@@ -11,3 +11,13 @@
 2. Click **VPN** in the left pane.
 3. Click **Add a VPN connection** and a dialog will come up which has several fields to fill out:  
     - For **VPN provider** choose **Windows (built-in)**. 
+    - Enter a name in the **Connection name** field e.g. MyVPN.
+    - In the **Server name or address field** enter the public IP address of the VPN server.
+    - Change the **VPN type** to **L2TP/IPsec with pre-shared key** and enter the key used in the VPN server setup in the **Pre-shared key** field.
+    - *Optional* - Enter a **User name** and **Password** if you want it to be remembered.
+4. Click **Save**.
+5. Click on the newly created VPN connection icon e.g. MyVPN and click **Connect**  
+If the user name and password weren't saved previously, enter them and click **OK**.
+### Verify connection
+1. Beneath the VPN connection icon shoudl be the word **\"Connected\"**.
+2. Open **Network Connections** (ncpa.cpl) and you should see a new connection with the name of your VPN connection name created previously e.g. MyVPN
