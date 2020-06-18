@@ -3,3 +3,5 @@ Data being mirrored between two EXPRESSCLUSTER servers is currently unencrypted.
 \*Note that this is just one of many variations on how to configure a VPN server.  
 
 ![Configuration](ECX%20VPN%20LAN%20Cluster.png)
+
+Set up VPN Server.md
