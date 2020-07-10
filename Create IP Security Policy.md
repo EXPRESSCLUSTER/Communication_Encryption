@@ -52,5 +52,5 @@
 43. Repeat all steps above on the secondary server.
 ## Enable the policy on both servers
 01. Open the IP Security Policy Management snap-in and select 'IP Security Policies on Local Computer' to display all security policies.
-02. Right click on the policy recently created and click Assign. Repeat on the other server.
+02. Right click on the policy recently created and click Assign. Repeat on the other server.    
     \*Note that only one policy can be assigned at a time.
