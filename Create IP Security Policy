@@ -1,11 +1,11 @@
-#Create and IP Security Policy on Windows servers
-##Open the IP Security Policy Management snap-in
+# Create and IP Security Policy on Windows servers
+## Open the IP Security Policy Management snap-in
 01. Open the Microsoft Management Console by accessing the Run menu (Windows key + R), enter 'MMC', and click OK.
 02. Click File and select Add/Remove Snap-in...
 03. Scroll down the Available snap-ins to find and select IP Security Policy Management. Click Add.
 04. Leave the default (Local computer) selected and click Finish.
 05. Click OK.
-##Create IP Security Policy
+## Create IP Security Policy
 06. Right click IP Security Policies on Local Computer and click on Create IP Security Policy...
 07. Click Next in the Welcome screen
 08. Enter a name for the new IP Security Policy e.g. ECX IP Security. Click Next.
@@ -50,7 +50,7 @@
 46. Click Finish.
 47. Verify that the security rule just created is checked, and click OK.
 48. Repeat all steps above on the secondary server.
-##Enable the policy on both servers
+## Enable the policy on both servers
 Open the IP Security Policy Management snap-in and select 'IP Security Policies on Local Computer' to display all security policies.
 Right click on the policy recently created and click Assign. Repeat on the other server.
-*Note that only one policy can be assigned at a time.
+\*Note that only one policy can be assigned at a time.
