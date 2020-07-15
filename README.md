@@ -13,4 +13,6 @@ Data being mirrored between two EXPRESSCLUSTER servers is currently unencrypted.
 
 # IP Security Policy
 
+![Configuration](ECX%20IPsec%20LAN%20Cluster.png)
+
 [Set up IP Security Policy using the configuration wizard](https://github.com/EXPRESSCLUSTER/Communication_Encryption/blob/master/Create%20IP%20Security%20Policy.md)
