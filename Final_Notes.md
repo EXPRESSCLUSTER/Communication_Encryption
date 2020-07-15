@@ -1,0 +1,4 @@
+# Which method is better?
+## VPN Limitations
+01. Configuring the MDC connection during cluster configuration on each server is more difficult. The VPN server must be installed and configured and the VPN client must be connected in order to configure this. When a VPN connection is established, a virtual IP address is assigned to the VPN server and the VPN client. A new MDC connection can then be created with the Cluster WebUI, using the two new IP addresses. In some cases, this may not go smoothly and a workaround is necessary. This MDC connection must then be given priority for mirror disk communication.
+02. The VPN method has another major obstacle: the VPN client does not automatically connect to the VPN server on OS startup. The solution to this is to create a task in Task Scheduler on the client machine which will make the connection upon OS startup. C:\Windows\System32\rasdial.exe <VPN Connection Name> 
