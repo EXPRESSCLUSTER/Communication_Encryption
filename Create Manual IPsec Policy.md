@@ -5,7 +5,7 @@
 03. Scroll down the **Available snap-ins** to find and select **IP Security Policy Management**. Click **Add**.
 04. Leave the default (**Local computer**) selected and click **Finish**.
 05. Click **OK**.
-Create IP Security Policy
+## Create IP Security Policy
 01. Right click 'IP Security Policies on Local Computer' and click on 'Create IP Security Policy...'
 02. Click 'Next' in the 'Welcome' screen.
 03. Enter a Name for the new policy e.g. ECX IP Security. Click 'Next'.
