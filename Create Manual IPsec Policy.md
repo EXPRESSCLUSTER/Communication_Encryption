@@ -26,18 +26,18 @@
         03. Leave the **To** IP protocol port as **To any port** and click **OK**.    
         
     04. Click **Add** again to input an incoming filter.
-   Addresses tab
-   01. On the 'Addresses' tab change the 'Source address:' from 'Any IP Address' to 'A specific IP Address or Subnet' and enter the IP address used for mirrored communication (ECX MDC) on the current server.
-   02. Change the 'Destination address' from 'Any IP Address' to 'A specific IP Address or Subnet' and enter the IP address of the other server's ECX MDC.
-   03. The 'Mirorred' check box can be left checked.
-   Protocol tab
-   01. Click the 'Protocol' tab and change the 'protocol type' from 'Any' to 'TCP'.
-   02. Leave the 'From' IP protocol port as 'From any port' and click 'OK'.
-   03. Set the 'To' IP protocol port to 'To this port:' and enter 29005 and click 'OK'.
-05. Verify that there is one filter from 29005 to any port and one filter from any port to 29005 and click 'OK'.
-06. Select the newly added filter (e.g. ECX2 Communication Port).
-07. Select the Filter Action tab
-Filter Action tab
+        #### Addresses tab
+        01. On the **Addresses** tab change the **Source address:** from **Any IP Address** to **A specific IP Address or Subnet** and enter the IP address used for mirrored communication (ECX MDC) on the current server.
+        02. Change the **Destination address** from **Any IP Address** to **A specific IP Address or Subnet** and enter the IP address of the other server's ECX MDC.
+        03. The **Mirorred** check box can be left checked.
+        #### Protocol tab
+        01. Click the **Protocol** tab and change the **protocol type** from **Any** to **TCP**.
+        02. Leave the **From** IP protocol port as **From any port**.
+        03. Set the **To** IP protocol port to **To this port:**, enter *29005* and click **OK**.
+    05. Verify that there is one filter from 29005 to any port and one filter from any port to 29005 and click **OK**.
+    06. Select the newly added filter (e.g. *ECX2 Communication Port*).
+    07. Select the **Filter Action** tab
+    ### Filter Action tab
 01. Make sure the 'Use Add Wizard' box is unchecked and click 'Add'
     Security Methods tab
     01. On the Security Methods tab leave 'Negotiate security' selected and click 'Add'.
