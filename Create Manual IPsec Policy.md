@@ -15,16 +15,16 @@
     ### IP Filter List tab
     01. Click **Add** on the **IP Filter List** tab.
     02. Enter a name for the new filter list e.g. ECX2 Communication Port.
-    03. Uncheck the 'Use Add Wizard' box and click 'Add'.
+    03. Uncheck the 'Use Add Wizard' box and click 'Add' to input an outgoing filter.
         #### Addresses tab
-        01. On the 'Addresses' tab change the 'Source address:' from 'Any IP Address' to 'A specific IP Address or Subnet' and enter the IP address used for mirrored communication (ECX MDC) on the current server.
-   02. Change the 'Destination address' from 'Any IP Address' to 'A specific IP Address or Subnet' and enter the IP address of the other server's ECX MDC.
-   03. The 'Mirorred' check box can be left checked.
-   Protocol tab
-   01. Click the 'Protocol' tab and change the 'protocol type' from 'Any' to 'TCP'.
-   02. Set the 'From' IP protocol port to 'From this port:' and enter 29005.
-   03. Leave the 'To' IP protocol port as 'To any port' and click 'OK'.
-04. Click 'Add' again to input an incoming filter.
+        01. On the **Addresses** tab change the **Source address:** from **Any IP Address** to **A specific IP Address or Subnet** and enter the IP address used for mirrored communication (ECX MDC) on the current server.
+        02. Change the **Destination address** from **Any IP Address** to **A specific IP Address or Subnet** and enter the IP address of the other server's ECX MDC.
+        03. The **Mirorred** check box can be left checked.
+        #### Protocol tab
+        01. Click the **Protocol** tab and change the **protocol type** from **Any** to **TCP**.
+        02. Set the **From** IP protocol port to **From this port:** and enter *29005*.
+        03. Leave the **To** IP protocol port as **To any port** and click **OK**.
+    04. Click **Add** again to input an incoming filter.
    Addresses tab
    01. On the 'Addresses' tab change the 'Source address:' from 'Any IP Address' to 'A specific IP Address or Subnet' and enter the IP address used for mirrored communication (ECX MDC) on the current server.
    02. Change the 'Destination address' from 'Any IP Address' to 'A specific IP Address or Subnet' and enter the IP address of the other server's ECX MDC.
