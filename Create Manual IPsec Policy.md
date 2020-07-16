@@ -56,8 +56,12 @@
     
 07. Make sure the newly created security rule box is checked and click **OK**.
 08. Repeat all steps above on the other server in the ECX cluster.
-09. Enable the policy on both servers    
-Open the IP Security Policy Management snap-in and select 'IP Security Policies on Local Computer' to display all security policies.
-Right click on the policy recently created and click **Assign**. Repeat on the other server.
-*Note that only one policy can be assigned at a time.*
+## Enable the policy on both servers
+01. Open the **IP Security Policy Management** snap-in and select **IP Security Policies on Local Computer** to display all security policies.
+02. Right click on the policy recently created (e.g. *ECX IP Security*) and click **Assign**. Repeat on the other server.    
+    \*Note that only one policy can be assigned at a time.
+## Encryption verification
+01. Use the IP Security Monitor snap-in for MMC.
+02. Use a network protocol analyzer. The protocol for an encrypted packet should be ESP (Encapsulating Security Payload).
+
 
