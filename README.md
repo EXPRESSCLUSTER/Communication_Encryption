@@ -2,6 +2,7 @@ Data being mirrored between two EXPRESSCLUSTER servers is currently unencrypted.
 
 \*Note that the configuration guide is just one of many variations on how to configure a VPN server. An IP Security Policy also has other settings which can be configured. All testing was done on Microsoft Windows 2019 Servers.
  
+[Which method should I user?]()
 
 # Windows VPN
 
