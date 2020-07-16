@@ -12,8 +12,8 @@
 04. In the **Requests for Secure Communication** window click **Next** without checking the box.
 05. Leave the **Edit properties** box checked and click **Finish**.
 06. Uncheck the **Use Add Wizard** box and click **Add** to create a new security rule.
-### IP Filter List tab
-01. Click 'Add' on the 'IP Filter List' tab.
+    ### IP Filter List tab
+01. Click **Add** on the **IP Filter List** tab.
 02. Enter a name for the new filter list e.g. ECX2 Communication Port.
 03. Uncheck the 'Use Add Wizard' box and click 'Add'.
    Addresses tab
