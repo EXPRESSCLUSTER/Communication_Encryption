@@ -24,6 +24,7 @@
         01. Click the **Protocol** tab and change the **protocol type** from **Any** to **TCP**.
         02. Set the **From** IP protocol port to **From this port:** and enter *29005*.
         03. Leave the **To** IP protocol port as **To any port** and click **OK**.    
+        
     04. Click **Add** again to input an incoming filter.
    Addresses tab
    01. On the 'Addresses' tab change the 'Source address:' from 'Any IP Address' to 'A specific IP Address or Subnet' and enter the IP address used for mirrored communication (ECX MDC) on the current server.
