@@ -6,12 +6,12 @@
 04. Leave the default (**Local computer**) selected and click **Finish**.
 05. Click **OK**.
 ## Create IP Security Policy
-01. Right click 'IP Security Policies on Local Computer' and click on 'Create IP Security Policy...'
-02. Click 'Next' in the 'Welcome' screen.
-03. Enter a Name for the new policy e.g. ECX IP Security. Click 'Next'.
-04. In the 'Requests for Secure Communication' window click 'Next' without checking the box.
-05. Leave the 'Edit properties' box checked and click 'Finish'.
-06. Uncheck the 'Use Add Wizard' box and click 'Add' to create a new security rule.
+01. Right click **IP Security Policies on Local Computer** and click on **Create IP Security Policy...**
+02. Click **Next** in the **Welcome** screen.
+03. Enter a **Name** for the new policy e.g. *ECX IP Security*. Click **Next**.
+04. In the **Requests for Secure Communication** window click **Next** without checking the box.
+05. Leave the **Edit properties** box checked and click **Finish**.
+06. Uncheck the **Use Add Wizard** box and click **Add** to create a new security rule.
 IP Filter List tab
 01. Click 'Add' on the 'IP Filter List' tab.
 02. Enter a name for the new filter list e.g. ECX2 Communication Port.
