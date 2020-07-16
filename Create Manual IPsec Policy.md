@@ -38,13 +38,13 @@
     06. Select the newly added filter (e.g. *ECX2 Communication Port*).
     07. Select the **Filter Action** tab
     ### Filter Action tab
-01. Make sure the 'Use Add Wizard' box is unchecked and click 'Add'
-    Security Methods tab
-    01. On the Security Methods tab leave 'Negotiate security' selected and click 'Add'.
-    02. Leave the default as 'Integrity and encryption' and click 'OK'. Move this security method to the top if there are others.
+    01. Make sure the 'Use Add Wizard' box is unchecked and click 'Add'
+        #### Security Methods tab
+        01. On the **Security Methods** tab leave **Negotiate security** selected and click **Add**.
+        02. Leave the default as **Integrity and encryption** and click **OK**. Move this security method to the top if there are others on the list.    
         (the default ESP confidentiality method is 3DES and integrity method is SHA1)
-    03. Check the 'Use session key perfect forward secrecy (PFS)'.
-    General tab
+        03. Check the **Use session key perfect forward secrecy (PFS)**.
+        #### General tab
     01. Click the 'General' tab and enter a name for the filter action e.g. ECX Communication Encryption. Click OK.
 02. Select the newly entered filter action (e.g. ECX Communication Encryption).
 03. Select the Authentication Methods tab.
