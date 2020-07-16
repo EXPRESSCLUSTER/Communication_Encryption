@@ -16,8 +16,8 @@
     01. Click **Add** on the **IP Filter List** tab.
     02. Enter a name for the new filter list e.g. ECX2 Communication Port.
     03. Uncheck the 'Use Add Wizard' box and click 'Add'.
-   Addresses tab
-   01. On the 'Addresses' tab change the 'Source address:' from 'Any IP Address' to 'A specific IP Address or Subnet' and enter the IP address used for mirrored communication (ECX MDC) on the current server.
+        #### Addresses tab
+        01. On the 'Addresses' tab change the 'Source address:' from 'Any IP Address' to 'A specific IP Address or Subnet' and enter the IP address used for mirrored communication (ECX MDC) on the current server.
    02. Change the 'Destination address' from 'Any IP Address' to 'A specific IP Address or Subnet' and enter the IP address of the other server's ECX MDC.
    03. The 'Mirorred' check box can be left checked.
    Protocol tab
