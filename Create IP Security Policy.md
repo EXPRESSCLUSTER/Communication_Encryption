@@ -1,4 +1,4 @@
-# Create an IP Security Policy on Windows servers
+# Create an IP Security Policy on Windows servers (using the wizard)
 ## Open the IP Security Policy Management snap-in
 01. Open the **Microsoft Management Console** by accessing the **Run** menu (Windows key + R), enter '**MMC**', and click **OK**.
 02. Click **File** and select **Add/Remove Snap-in...**.
