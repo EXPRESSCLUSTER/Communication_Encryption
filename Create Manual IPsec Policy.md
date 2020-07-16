@@ -46,8 +46,9 @@
         03. Check the **Use session key perfect forward secrecy (PFS)**.
         #### General tab
         01. Click the **General** tab and enter a name for the filter action e.g. *ECX Communication Encryption*. Click **OK**.
-        02. Select the newly entered filter action (e.g. *ECX Communication Encryption*).
-    08. Select the Authentication Methods tab.
+        02. Select the newly entered filter action (e.g. *ECX Communication Encryption*).    
+        
+    08. Select the **Authentication Methods** tab.
     ### Authentication Methods tab
     01. Click on **Add** for a new authentication method.
     02. Select **Use this string (preshared key):** and enter a character string e.g. *ECXSecurity*. Click **OK**.
