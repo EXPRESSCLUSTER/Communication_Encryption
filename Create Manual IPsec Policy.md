@@ -52,10 +52,11 @@
     01. Click on **Add** for a new authentication method.
     02. Select **Use this string (preshared key):** and enter a character string e.g. *ECXSecurity*. Click **OK**.
     09. Select the newly entered key and move it up to the top position. 
-    10. Click **Apply** and then **OK**.
+    10. Click **Apply** and then **OK**.    
+    
 07. Make sure the newly created security rule box is checked and click **OK**.
 08. Repeat all steps above on the other server in the ECX cluster.
-09. Enable the policy on both servers
+09. Enable the policy on both servers    
 Open the IP Security Policy Management snap-in and select 'IP Security Policies on Local Computer' to display all security policies.
 Right click on the policy recently created and click **Assign**. Repeat on the other server.
 *Note that only one policy can be assigned at a time.*
