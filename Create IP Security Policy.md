@@ -55,5 +55,5 @@
 02. Right click on the policy recently created (e.g. *ECX IP Security*) and click **Assign**. Repeat on the other server.    
     \*Note that only one policy can be assigned at a time.
 ## Encryption verification
-01. IP Security Monitor snap-in for MMC.
+01. Use the IP Security Monitor snap-in for MMC.
 02. Use a network protocol analyzer. The protocol for an encrypted packet should be ESP (Encapsulating Security Payload).
