@@ -33,7 +33,8 @@
 25. Change the **protocol type** to **TCP** and click **Next**.
 26. Leave the **From** IP protocol port as **From any port**.
 27. Set the **To** IP protocol port as **To this port**, enter **29005**, and click **Next**.
-28. Click **Finish**.
+28. Click **Finish**.    
+    (Filtering is now set to limit encryption to all TCP traffic which comes from or goes to port 29005 on either server)
 29. Review the two new filters and click **OK**.
 30. Select the newly added filter (e.g. *ECX Communication Port*) and click **Next**.
 31. In the **Filter Action** window, click the **Use Add Wizard** box and click **Add**.
