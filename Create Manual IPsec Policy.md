@@ -34,7 +34,8 @@
         01. Click the **Protocol** tab and change the **protocol type** from **Any** to **TCP**.
         02. Leave the **From** IP protocol port as **From any port**.
         03. Set the **To** IP protocol port to **To this port:**, enter *29005* and click **OK**.
-    05. Verify that there is one filter from 29005 to any port and one filter from any port to 29005 and click **OK**.
+    05. Verify that there is one filter from 29005 to any port and one filter from any port to 29005 and click **OK**.    
+        (Filtering is now set to limit encryption to all TCP traffic which comes from or goes to port 29005 on either server in the cluster)
     06. Select the newly added filter (e.g. *ECX Communication Port*).
     07. Select the **Filter Action** tab
     ### Filter Action tab
