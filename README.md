@@ -5,6 +5,14 @@ Data being mirrored between two EXPRESSCLUSTER servers is currently unencrypted.
  
 [Which method should I use?](https://github.com/EXPRESSCLUSTER/Communication_Encryption/blob/master/Final_Notes.md)
 
+# IP Security Policy
+
+![Configuration](ECX%20IPsec%20LAN%20Cluster.png)
+
+[Set up IP Security Policy using the configuration wizard](https://github.com/EXPRESSCLUSTER/Communication_Encryption/blob/master/Create%20IP%20Security%20Policy.md)
+
+[Set up up IP Security Policy manually](https://github.com/EXPRESSCLUSTER/Communication_Encryption/blob/master/Create%20Manual%20IPsec%20Policy.md) (For an inside look at the configuration options)
+
 # Windows VPN
 
 ![Configuration](ECX%20VPN%20LAN%20Cluster.png)
@@ -13,10 +21,3 @@ Data being mirrored between two EXPRESSCLUSTER servers is currently unencrypted.
 
 [Set up the VPN client](https://github.com/EXPRESSCLUSTER/Communication_Encryption/blob/master/Set%20up%20VPN%20client.md)    
 
-# IP Security Policy
-
-![Configuration](ECX%20IPsec%20LAN%20Cluster.png)
-
-[Set up IP Security Policy using the configuration wizard](https://github.com/EXPRESSCLUSTER/Communication_Encryption/blob/master/Create%20IP%20Security%20Policy.md)
-
-[Set up up IP Security Policy manually](https://github.com/EXPRESSCLUSTER/Communication_Encryption/blob/master/Create%20Manual%20IPsec%20Policy.md) (For an inside look at the configuration options)
