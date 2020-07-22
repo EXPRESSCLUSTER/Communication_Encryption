@@ -1,5 +1,5 @@
 # VPN Server Setup
-*Windows Server 2019 with L2TP over IPSec* 
+*Windows Server 2019 with L2TP over IPSec.*    
 Before beginning, install the latest updates onto the server
 ## Install Remote Access Role (with VPN)
 1. Launch the **Server Manager**, select the **Manage** menu, and select **Add Roles and Features**.
