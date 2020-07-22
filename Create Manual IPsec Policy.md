@@ -59,7 +59,7 @@
 07. Make sure the newly created security rule box is checked and click **OK**.
 08. Repeat all steps above on the other server in the ECX cluster.
 ## Enable the policy on both servers
-01. Before enabling encryption, stop the cluster to prevent an error in mirroring communication. Do this if the EXPRESSCLUSTER cluster has already been configured.
+01. Before enabling encryption, **stop the cluster** to prevent an error in mirroring communication. Do this if the EXPRESSCLUSTER cluster has already been configured.
 02. Open the **IP Security Policy Management** snap-in and select **IP Security Policies on Local Computer** to display all security policies.
 03. Right click on the policy recently created (e.g. *ECX IP Security*) and click **Assign**. Repeat on the other server.    
     \*Note that only one policy can be assigned at a time.
@@ -67,5 +67,3 @@
 ## Encryption verification
 01. Use the IP Security Monitor snap-in for MMC.
 02. Use a network protocol analyzer. The protocol for an encrypted packet should be ESP (Encapsulating Security Payload).
-
-
