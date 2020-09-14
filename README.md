@@ -21,3 +21,5 @@ Data being mirrored between two EXPRESSCLUSTER servers is currently unencrypted.
 
 [Set up the VPN client](https://github.com/EXPRESSCLUSTER/Communication_Encryption/blob/master/Set%20up%20VPN%20client.md)    
 
+# Mirroring Performance With Encryption
+We have evaluated encrypted mirroring performance on EXPRESSCLUSTER by changing RAM size, # of CPUs, and block size using iometer, CrystalDiskMark and DiskSpd. Even with configuration changes, encrypted mirroring seems to perform at about 10MB/sec at most. We assume that the encryption process is executed with a fixed RAM and CPU size because an increase to RAM and CPU size does not affect encrypted mirroring performance. Customers can use our solution if 10MB/sec is enough for their environment.
