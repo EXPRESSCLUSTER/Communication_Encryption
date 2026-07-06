@@ -1,8 +1,62 @@
-# Which method is better?
-## IP Security Policy
-Configuration is a little more involved than a VPN server\client configuration. However, the major advantage this method has is that a secured connection can be made soon after the active server or passive server is restarted, making it a better choice. EXPRESSCLUSTER configuration is normal.
-## VPN Limitations
-A VPN server and VPN client can be set up quicker than configuring an IPsec policy. However, there is one extra issue during cluster configuration which needs to be addressed. The other issues involve reconnecting the client and server if either server restarts.
-01. **Configuring the ECX MDC connection during cluster configuration on each server is more difficult.** The VPN server must be installed and configured and the VPN client must be connected in order to configure this. When a VPN connection is established, virtual IP addresses are assigned to the VPN server and the VPN client. The encrypted communication is passed using these two IP addresses. Therefore, a new MDC connection needs to be created with the Cluster WebUI, using the two new IP addresses. This MDC connection must then be given priority for mirror disk communication. In some cases, applying the new MDC connection may not go smoothly and a workaround is necessary.
-02. The second problem is **the VPN client does not automatically connect to the VPN server on OS startup.** The solution to this is to create a task in Task Scheduler on the client machine which will make the connection upon OS startup. The syntax is: *C:\Windows\System32\rasdial.exe \<VPN Connection Name\>*. This handles the case where the VPN client is restarted, but does not handle the case where the VPN server is restarted.
-03. **A third problem is that the VPN client won't automatically reconnect to the VPN server if the server is restarted.** A possible solution for this case is to have a monitor on the VPN connection and try to reconnect at set intervals when a disconnect is detected.
+# Which Method Should I Use?
+
+## Recommendation
+
+**IPsec is the recommended method for most deployments.** It integrates more
+cleanly with EXPRESSCLUSTER, reconnects automatically after a server restart,
+and requires no changes to the MDC configuration.
+
+Use VPN only if a specific network requirement — such as routing over a WAN
+where IPsec traffic is blocked — makes it necessary.
+
+---
+
+## IP Security Policy (IPsec)
+
+**Advantages:**
+
+- The encrypted connection is restored automatically when either server
+  restarts — no manual intervention or workarounds needed.
+- No changes to the EXPRESSCLUSTER MDC configuration are required.
+- Configuration is contained entirely within Windows with no additional
+  software.
+
+**Disadvantage:**
+
+- The wizard-based setup involves more steps than the VPN setup, though a
+  [manual configuration guide](Create%20Manual%20IPsec%20Policy.md) is also
+  provided for reference.
+
+---
+
+## Windows VPN
+
+**Advantage:**
+
+- Quicker initial setup compared to configuring an IPsec policy.
+
+**Limitations:**
+
+1. **MDC configuration requires the VPN to already be connected.**
+   When configuring the Mirror Disk Connection in the Cluster WebUI, the VPN
+   must be active because mirror disk communication uses the virtual IP
+   addresses assigned by the VPN tunnel — not the physical MDC IP addresses.
+   A new MDC connection must be created in the Cluster WebUI using those
+   virtual IPs and given the highest priority. In some cases this step may
+   not apply cleanly and a workaround is required.
+
+2. **The VPN client does not reconnect automatically after the client server
+   restarts.**
+   Workaround: create a Task Scheduler task on the client machine to run the
+   following command at OS startup:
+   ```
+   C:\Windows\System32\rasdial.exe <VPN Connection Name>
+   ```
+   This handles restarts of the client server only — it does not handle
+   restarts of the VPN server.
+
+3. **The VPN client does not reconnect automatically if the VPN server
+   restarts.**
+   Workaround: configure a monitor resource in EXPRESSCLUSTER to detect VPN
+   disconnection and periodically retry the connection using `rasdial.exe`.
+   No automated solution for this case is provided in this guide.
